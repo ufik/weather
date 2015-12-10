@@ -1,0 +1,3 @@
+services:
+    weather.city:
+        class: WeatherBundle\Service\City
