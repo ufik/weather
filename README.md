@@ -7,6 +7,8 @@ Install
 =======
 
 ```
+composer install
+
 php app/console doctrine:database:create
 php app/console doctrine:schema:create
 php app/console doctrine:fixtures:load -n
@@ -16,6 +18,10 @@ Download initial data
 ```
 php app/console weather:download-data
 
+```
+
+Run symfony web server
+```
 php app/console server:run
 ```
 
